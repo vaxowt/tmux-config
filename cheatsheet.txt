@@ -55,6 +55,12 @@ PERSISTENCE
   Auto-save every 1 minute (continuum)
   C-r        Manual restore (resurrect, default)
 
+FLOATING TERMINAL
+  Enter      Open/Close scratch terminal
+  M-h        Convert scratch terminal to active window
+  M-l        Convert scratch terminal to next-window
+  M-m        Convert convert current pane into popup scratch
+
 MISCELLANEOUS
   ?          List all key bindings
   :          Enter command mode
