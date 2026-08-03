@@ -15,6 +15,8 @@ PANES
   z          Toggle pane zoom
   space      Cycle layouts
   {/}        Move pane left/right
+  M-x        Cut a pane (plugin)
+  M-v        Paste the cut pane into the current window (plugin)
 
 WINDOWS
   c          Create new window
@@ -40,13 +42,14 @@ COPY MODE (prefix [)
   Space/v    Begin selection (custom)
   Enter/y    Copy selection (custom)
   q          Quit copy mode
+  Tab        Start extrakto (plugin)
 
 PASTE
   ]          Paste from buffer
   =          Choose buffer from list
   #          List all paste buffers
 
-PLUGINS (TPM)
+PLUGIN MANAGER (TPM)
   I          Install plugins
   U          Update plugins
   Alt-u      Uninstall plugins
