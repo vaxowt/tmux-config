@@ -1,0 +1,61 @@
+TMUX CHEATSHEET (prefix = C-a)
+====================================
+
+PANES
+  %/\        Split horizontal (custom)
+  "/-        Split vertical (custom)
+  ;          Move to previously active pane
+  o          Select next pane
+  h/j/k/l    Select pane (custom, repeatable)
+  H/J/K/L    Resize pane by 5 (custom, repeatable)
+  q          Show pane numbers, press digit to switch (custom)
+  C-q        Show pane numbers, press digit to swap (custom)
+  x          Kill pane
+  !          Convert pane to window
+  z          Toggle pane zoom
+  space      Cycle layouts
+  {/}        Move pane left/right
+
+WINDOWS
+  c          Create new window
+  &          Kill current window
+  n          Next window
+  p          Previous window
+  0-9        Switch to window by number
+  l          Last window (recent)
+  ,          Rename window
+  f          Find window (by name)
+  w          List windows (interactive)
+  .          Move current window to number
+  C-w        Prompt to swap with another window (custom)
+
+SESSION
+  d          Detach session
+  D          Choose session to detach
+  s          List sessions (choose one)
+  $          Rename session
+  r          Reload config (custom)
+
+COPY MODE (prefix [)
+  Space/v    Begin selection (custom)
+  Enter/y    Copy selection (custom)
+  q          Quit copy mode
+
+PASTE
+  ]          Paste from buffer
+  =          Choose buffer from list
+  #          List all paste buffers
+
+PLUGINS (TPM)
+  I          Install plugins
+  U          Update plugins
+  Alt-u      Uninstall plugins
+
+PERSISTENCE
+  Auto-save every 1 minute (continuum)
+  C-r        Manual restore (resurrect, default)
+
+MISCELLANEOUS
+  ?          List all key bindings
+  :          Enter command mode
+  t          Show clock
