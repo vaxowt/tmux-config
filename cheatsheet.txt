@@ -46,10 +46,14 @@ COPY PASTE
   Space/v    Begin selection (custom)
   Enter/y    Copy selection (custom)
   q          Quit copy mode
-  Tab        Start extrakto (plugin)
   ]          Paste from buffer
   =          Choose buffer from list
   #          List all paste buffers
+  s          Easymotion (plugin)
+  Prefix S   Easycopy (plugin)
+  Prefix Q   Quick copy element (plugin)
+  Prefix P   Quick open url (plugin)
+  Prefix W   Quick copy line (plugin)
 
 PLUGIN MANAGER (TPM)
   I          Install plugins (plugin)
