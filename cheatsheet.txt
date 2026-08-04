@@ -72,4 +72,5 @@ MISCELLANEOUS
   ?          List all key bindings
   :          Enter command mode
   t          Show clock
+  *          Kill process in the current pane (plugin)
   C-h        Show this cheatsheet (custom)
