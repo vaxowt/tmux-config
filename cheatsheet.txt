@@ -41,6 +41,8 @@ SESSION
   X          Terminate and delete session (plugin)
   C-r        Restore all sessions (plugin)
   C-u        Save all sessions (plugin)
+  C          Set working dir (custom)
+  C-c        Set pane dir as working dir (custom)
 
 COPY PASTE
   [          Enter copy mode
