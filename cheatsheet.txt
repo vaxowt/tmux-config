@@ -6,65 +6,65 @@ PANES
   "/-        Split vertical (custom)
   ;          Move to previously active pane
   o          Select next pane
-  h/j/k/l    Select pane (custom, repeatable)
-  H/J/K/L    Resize pane by 5 (custom, repeatable)
-  q          Show pane numbers, press digit to switch (custom)
-  C-q        Show pane numbers, press digit to swap (custom)
+  h/j/k/l    Select pane (custom)
+  H/J/K/L    Resize pane by 5 (custom)
+  q          Switch pane interactively
+  C-q        Swap pane interactively (custom)
   x          Kill pane
   !          Convert pane to window
   z          Toggle pane zoom
   space      Cycle layouts
   {/}        Move pane left/right
   M-x        Cut a pane (plugin)
-  M-v        Paste the cut pane into the current window (plugin)
+  M-v        Paste the cut pane (plugin)
 
 WINDOWS
-  c          Create new window
-  &          Kill current window
+  c          Create window
+  &          Kill window
   n          Next window
   p          Previous window
   0-9        Switch to window by number
-  l          Last window (recent)
   ,          Rename window
-  f          Find window (by name)
-  w          List windows (interactive)
-  .          Move current window to number
-  C-w        Prompt to swap with another window (custom)
+  w          Manage windows, arrow - navi, x - kill
+  .          Change window number
+  C-w        Swap window (custom)
 
 SESSION
   d          Detach session
   D          Choose session to detach
-  s          List sessions (choose one)
+  s          Manage sessions, arrow - navi, x - kill
   $          Rename session
-  r          Reload config (custom)
+  f          Choose session to restore (plugin)
+  u          Save session (plugin)
+  r          Restore session (plugin)
+  X          Terminate and delete session (plugin)
+  C-r        Restore all sessions (plugin)
+  C-u        Save all sessions (plugin)
 
-COPY MODE (prefix [)
+COPY PASTE
+  [          Enter copy mode
   Space/v    Begin selection (custom)
   Enter/y    Copy selection (custom)
   q          Quit copy mode
   Tab        Start extrakto (plugin)
-
-PASTE
   ]          Paste from buffer
   =          Choose buffer from list
   #          List all paste buffers
 
 PLUGIN MANAGER (TPM)
-  I          Install plugins
-  U          Update plugins
-  Alt-u      Uninstall plugins
-
-PERSISTENCE
-  Auto-save every 1 minute (continuum)
-  C-r        Manual restore (resurrect, default)
+  I          Install plugins (plugin)
+  U          Update plugins (plugin)
+  Alt-u      Uninstall plugins (plugin)
 
 FLOATING TERMINAL
-  Enter      Open/Close scratch terminal
-  M-h        Convert scratch terminal to active window
-  M-l        Convert scratch terminal to next-window
-  M-m        Convert convert current pane into popup scratch
+  Enter      Toggle scratch terminal (plugin)
+  M-h        Convert scratch terminal to active window (plugin)
+  M-l        Convert scratch terminal to next-window (plugin)
+  M-m        Convert current pane into popup scratch (plugin)
 
 MISCELLANEOUS
+  R          Reload config (custom)
   ?          List all key bindings
   :          Enter command mode
   t          Show clock
+  C-h        Show this cheatsheet (custom)
