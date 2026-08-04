@@ -17,6 +17,7 @@ PANES
   {/}        Move pane left/right
   M-x        Cut a pane (plugin)
   M-v        Paste the cut pane (plugin)
+  C-l        Switch layout interactively (custom)
 
 WINDOWS
   c          Create window
